@@ -1,0 +1,19 @@
+{
+  "name": "gourouss-ocr",
+  "version": "1.0.0",
+  "description": "Service de verification OCR des preuves de paiement mobile money (Gourouss)",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.4",
+    "express": "^5.2.1",
+    "sharp": "^0.35.4",
+    "tesseract.js": "^7.0.0"
+  }
+}
